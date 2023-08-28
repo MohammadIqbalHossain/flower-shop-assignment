@@ -121,3 +121,20 @@ header {
     margin-bottom: 128px;
 }
 
+/* Hot deals section */
+
+.deals-container {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+
+    text-align: center;
+}
+
+.portion-color {
+    color: #E55473;
+}
