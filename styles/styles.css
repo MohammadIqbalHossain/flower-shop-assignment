@@ -152,11 +152,54 @@ header {
 .instagram-images {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
-
-    
+  
 }
 
 .instagram-images img {
     width: 250px;
+}
+
+.newsletter-container {
+    margin-bottom: 128px;
+    
+    margin: 0 130px;
+    text-align: center;
+    padding: 121px 150px;
+
+    background-image: url(/assets/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.newsletter-input {
+    background:  #FFF;
+    border-radius: 8px;
+    padding: 25px 5px;
+    width: 50%;
+    border: 0;
+    margin-right: 20px;
+
+}
+
+
+/* Footer styles */
+
+.footer-continer {
+    background: #111010;
+    text-align: center;
+    color: #FFF;
+
+    padding: 128px 0;
+}
+
+.footer-txt {
+    color: #ffffffe6;
+    font-size: 18px;
+    padding: 24px 0;
+} 
+
+.footer-small-txt {
+    color:rgba(255, 255, 255, 0.4);
 }
