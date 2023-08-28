@@ -125,7 +125,7 @@ header {
 
 .deals-container {
     background: rgba(229, 84, 115, 0.05);
-    padding: 100px 130px;
+    padding: 60px 130px;
 
     display: flex;
     justify-content: center;
@@ -137,4 +137,26 @@ header {
 
 .portion-color {
     color: #E55473;
+}
+
+/* Instagram section styles */
+
+.instagram-container {
+    margin-bottom: 128px;
+    padding: 0 130px;
+
+    text-align: center;
+
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    
+}
+
+.instagram-images img {
+    width: 250px;
 }
