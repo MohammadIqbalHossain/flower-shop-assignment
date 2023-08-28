@@ -51,6 +51,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 50px 130px 0 130px;
+    margin-bottom: 180px;
 }
 
 .banner-title {
@@ -59,6 +60,64 @@ header {
     font-weight: 800;
 }
 
-.banner-img {
-    
+
+/* Feature flowers section */
+
+.feature-container {
+    padding: 0 130px;
+    text-align: center;
+    margin-bottom: 180px;
 }
+
+.feature-items--container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: baseline;
+
+}
+
+.feature-item>img {
+    width: 310px;
+}
+
+.item-01 {
+    background-color: #a721621a;
+    border-radius: 300px 300px 0 0;
+    margin-bottom: 10px;
+}
+
+.item-02 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-bottom: 10px;
+}
+
+.item-03 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-bottom: 10px;
+}
+
+.item-name {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Services section */
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    margin: 0 130px;
+    padding: 86px 0;
+    border-radius: 8px;
+    background: #2727270d;
+    margin-bottom: 128px;
+}
+
