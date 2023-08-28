@@ -173,6 +173,27 @@ header {
     background-size: contain;
 }
 
+/* Feedback section */
+
+.feedback-container {
+    margin-bottom: 128px;
+    background: #F5F5F5;
+
+    display: flex;
+    text-align: center;
+}
+
+.feedback-cards {
+    border-left: 3px solid black;
+    height: 80%;
+}
+
+.customer-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
 .newsletter-input {
     background:  #FFF;
     border-radius: 8px;
@@ -180,8 +201,8 @@ header {
     width: 50%;
     border: 0;
     margin-right: 20px;
-
 }
+
 
 
 /* Footer styles */
