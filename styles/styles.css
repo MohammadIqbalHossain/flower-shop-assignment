@@ -37,7 +37,7 @@ body {
 .section-title {
     color: #272727;
     font-size: 40px;
-    font-weight: 800;   
+    font-weight: 800;
 }
 
 /* Header section  */
@@ -78,7 +78,9 @@ header {
 }
 
 .feature-item>img {
-    width: 310px;
+    width: 210px;
+    position: relative;
+
 }
 
 .item-01 {
@@ -91,6 +93,7 @@ header {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     margin-bottom: 10px;
+    padding: 70px 30px 0 30px;
 }
 
 .item-03 {
@@ -98,6 +101,7 @@ header {
     background: rgba(5, 151, 160, 0.15);
     margin-bottom: 10px;
 }
+
 
 .item-name {
     color: #272727;
@@ -154,7 +158,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 24px;
-  
+
 }
 
 .instagram-images img {
@@ -163,7 +167,7 @@ header {
 
 .newsletter-container {
     margin-bottom: 128px;
-    
+
     margin: 0 130px;
     text-align: center;
     padding: 121px 150px;
@@ -204,7 +208,7 @@ header {
 } */
 
 .feedback-cards {
-    border-left: 1px solid #000000; 
+    border-left: 1px solid #000000;
     padding: 50px;
 }
 
@@ -226,7 +230,7 @@ header {
 }
 
 .newsletter-input {
-    background:  #FFF;
+    background: #FFF;
     border-radius: 8px;
     padding: 25px 5px;
     width: 50%;
@@ -250,8 +254,8 @@ header {
     color: #ffffffe6;
     font-size: 18px;
     padding: 24px 0;
-} 
+}
 
 .footer-small-txt {
-    color:rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
