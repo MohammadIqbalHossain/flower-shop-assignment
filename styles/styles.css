@@ -37,7 +37,7 @@ body {
 .section-title {
     color: #272727;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 800;   
 }
 
 /* Header section  */
@@ -181,11 +181,42 @@ header {
 
     display: flex;
     text-align: center;
+    justify-content: space-between;
+}
+
+.feedback-title {
+    margin: 50px 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 .feedback-cards {
-    border-left: 3px solid black;
-    height: 80%;
+    padding: 10px 50px;
+}
+
+.feedback-cards:first-child {
+    border: 0;
+}
+
+/* .feedback-cards:last-child{
+    border: 0;
+} */
+
+.feedback-cards {
+    border-left: 1px solid #000000; 
+    padding: 50px;
+}
+
+.card-title {
+    margin: 20px 0;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.feedback {
+    font-size: 20px;
+    margin: 10px 0;
 }
 
 .customer-img {
