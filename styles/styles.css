@@ -178,16 +178,18 @@ header {
     width: 250px;
 }
 
+/* Newsletter section */
+
 .newsletter-container {
+    background-image: url(/assets/rectangular-9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
     margin-bottom: 128px;
 
     margin: 0 130px;
     text-align: center;
     padding: 121px 150px;
-
-    background-image: url(/assets/rectangular-9.png);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 /* Feedback section */
