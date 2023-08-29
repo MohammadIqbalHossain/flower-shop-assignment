@@ -189,8 +189,18 @@ header {
 
     margin: 128px 130px;
     text-align: center;
-    padding: 80px 150px;
+    padding: 50px 150px;
 }
+
+.newsletter-input {
+    background: #FFF;
+    border-radius: 8px;
+    padding: 25px 5px;
+    width: 50%;
+    border: 0;
+    margin-right: 20px;
+}
+
 
 /* Feedback section */
 
@@ -244,14 +254,6 @@ header {
     height: 100px;
 }
 
-.newsletter-input {
-    background: #FFF;
-    border-radius: 8px;
-    padding: 25px 5px;
-    width: 50%;
-    border: 0;
-    margin-right: 20px;
-}
 
 
 
